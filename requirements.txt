@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+mysql-connector-python  # Note: This is the correct package name, not mysql.connector
+matplotlib
+seaborn
+plotly
