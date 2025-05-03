@@ -5,3 +5,5 @@ mysql-connector-python  # Note: This is the correct package name, not mysql.conn
 matplotlib
 seaborn
 plotly
+json
+requests
