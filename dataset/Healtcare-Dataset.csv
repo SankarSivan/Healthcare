@@ -1,4 +1,4 @@
-patient_id,admit_date,discharge_date,diagnosis,ded_occupancy,test,doctor,followup_date,feedback,billing_amount,health_insurance_amount
+patient_id,admit_date,discharge_date,diagnosis,bed_occupancy,test,doctor,followup_date,feedback,billing_amount,health_insurance_amount
 23571,12/31/2022,1/12/2023,Viral Infection ,General,MRI,Jay Sinha,1/20/2023,5,13234,11911
 27781,1/4/2023,1/12/2023,Typhoid,ICU,MRI,Jaya Yaadav,1/16/2023,4,12241,11017
 24413,1/5/2023,1/12/2023,Malaria ,General,CT Scan,Jay Sinha,1/15/2023,5,35255,31730
