@@ -3,6 +3,11 @@
 An interactive **Streamlit web app** for visualizing and analyzing healthcare data. This dashboard provides real-time insights into patient demographics, doctor performance, treatment trends, hospital facility utilization, and billing analysis using Python.
 
 ---
+## 🚀 Live Dashboard
+
+🔗 [Click here to view the Live Streamlit App](https://healthcare-rwp52medj2th2amwsahpxa.streamlit.app/)
+
+---
 
 ## 🚀 Features
 
