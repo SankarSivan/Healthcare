@@ -521,29 +521,3 @@ fig = px.bar(
 )
 fig.update_traces(textposition='outside')
 st.plotly_chart(fig, use_container_width=True)
-
-import plotly.express as px
-
-# Count admissions per day
-admit_trend = df['admit_date'].value_counts().reset_index()
-admit_trend.columns = ['Date', 'Admissions']
-admit_trend = admit_trend.sort_values('Date')
-
-# Count discharges per day
-discharge_trend = df['discharge_date'].value_counts().reset_index()
-discharge_trend.columns = ['Date', 'Discharges']
-discharge_trend = discharge_trend.sort_values('Date')
-
-# Merge trends
-trend_df = pd.merge(admit_trend, discharge_trend, on='Date', how='outer').fillna(0)
-trend_df = trend_df.sort_values('Date')
-
-# Plot with Plotly in Streamlit
-fig = px.line(
-    trend_df,
-    x='Date',
-    y=['Admissions', 'Discharges'],
-    title='Admission and Discharge Trends Over Time',
-    labels={'value': 'Count', 'variable': 'Event'}
-)
-st.plotly_chart(fig, use_container_width=True)
