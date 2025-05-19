@@ -1,6 +1,6 @@
 # 🏥 Healthcare Insights Dashboard
 
-An interactive **Streamlit web app** for visualizing and analyzing healthcare data. This dashboard provides real-time insights into patient demographics, doctor performance, treatment trends, hospital facility utilization, and billing analysis using data stored in a **SQLite database**.
+An interactive **Streamlit web app** for visualizing and analyzing healthcare data. This dashboard provides real-time insights into patient demographics, doctor performance, treatment trends, hospital facility utilization, and billing analysis using Python.
 
 ---
 
@@ -36,10 +36,10 @@ An interactive **Streamlit web app** for visualizing and analyzing healthcare da
 ## 🛠 Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/)
-- **Backend:** Python, SQLite
+- **Backend:** Python  
 - **Libraries Used:**
-  - `pandas`, `numpy`
-  - `sqlite3`
+  - `pandas`,
+  - `numpy`
   - `matplotlib`, `seaborn`, `plotly`
   - `streamlit`
 
