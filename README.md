@@ -1,18 +1,47 @@
-# Healthcare_Dashboard
-In modern healthcare, data is critical for improving patient care and operational efficiency. However, analyzing large volumes of patient and treatment data remains challenging. This project aims to build an interactive analytics dashboard
+# 🏥 Healthcare Insights Dashboard
 
-# ------------------------ Import Libraries ----------------------------- #
-import pandas as pd
-import streamlit as st
-import plotly.express as px
-import json
-import requests
+An interactive **Streamlit web app** for visualizing and analyzing healthcare data. This dashboard provides real-time insights into patient demographics, doctor performance, treatment trends, hospital facility utilization, and billing analysis using data stored in a **SQLite database**.
 
+---
 
-st.write("My first Streamlit Dashboard 🎈")
+## 🚀 Features
 
+- 📊 **Patient Demographics Analysis**
+  - Age & Gender distribution
+  - City-wise patient count
+  - Patient feedback ratings
 
-@st.cache_data
+- 🩺 **Doctor Performance Dashboard**
+  - Average ratings and reviews
+  - Specialty-wise analysis
+  - Treatment load per doctor
 
-def load_data():
-  return pd.read_csv("https://github.com/dataprofessor/population-dashboard/raw/master/data/us-population-2010-2019-reshaped.csv", index_col=0
+- 💉 **Treatment Insights**
+  - Top treatments & diagnosis trends
+  - Admission & discharge patterns
+  - Monthly treatment volume
+
+- 🏨 **Facility Utilization**
+  - Department & ward usage
+  - Bed occupancy by time
+  - Daily footfall analysis
+
+- 💰 **Billing Dashboard**
+  - Revenue trends
+  - Treatment cost breakdown
+  - Insurance vs Non-insurance billing
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** [Streamlit](https://streamlit.io/)
+- **Backend:** Python, SQLite
+- **Libraries Used:**
+  - `pandas`, `numpy`
+  - `sqlite3`
+  - `matplotlib`, `seaborn`, `plotly`
+  - `streamlit`
+
+---
+
