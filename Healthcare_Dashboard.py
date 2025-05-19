@@ -8,7 +8,14 @@ import json
 import requests
 
 # ------------------------ Load Data ----------------------------- #
-df = pd.read_csv('/workspaces/Healthcare/dataset/Healtcare-Dataset.csv')
+#df = pd.read_csv('https://github.com/SankarSivan/Healthcare/blob/main/dataset/Healtcare-Dataset.csv')
+
+# ...existing code...
+# ------------------------ Load Data ----------------------------- #
+df = pd.read_csv('https://raw.githubusercontent.com/SankarSivan/Healthcare/main/dataset/Healtcare-Dataset.csv')
+# ...existing code...
+                
+# /workspaces/Healthcare/dataset/Healtcare-Dataset.csv')
 
 # ------------------------ Streamlit Config ----------------------------- #
 st.set_page_config(
